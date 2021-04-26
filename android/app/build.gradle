@@ -56,4 +56,6 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    def lifecycle_version = "2.3.1"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
 }
